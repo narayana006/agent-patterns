@@ -1,14 +1,30 @@
 # agent-patterns
 
-> Small, runnable reference implementations of common AI agent patterns, each under 200 lines.
+Small, runnable reference implementations of common AI agent patterns, each under 200 lines.
 
-**Status:** 🚧 Early stage — design and roadmap published, implementation in progress. Stars, issues and ideas welcome.
+> **Project status: planning. There is no working code in this repository yet.**
+> This README describes what the project will do. Nothing below can be installed or run today.
+> Features are ticked off in the checklist as they are built.
 
-## Why
+## What it is
 
-Agent frameworks hide the core ideas. Small readable examples teach the patterns and are easy to copy.
+A set of runnable example scripts.
+
+**The problem it solves:** Agent frameworks hide the core ideas. Small readable examples teach the patterns and are easy to copy.
+
+## Who it is for
+
+Developers learning how AI agents work who want small examples they can read in one sitting.
+
+## How it will work
+
+1. Each pattern is one short, self-contained file with comments explaining the idea.
+2. You run a file directly to see the pattern work end to end.
+3. You copy the pattern into your own project and adapt it.
 
 ## Planned features
+
+Unticked items are not built yet.
 
 - [ ] Router / classifier dispatch
 - [ ] Planner-executor
@@ -17,24 +33,17 @@ Agent frameworks hide the core ideas. Small readable examples teach the patterns
 - [ ] Short- and long-term memory
 - [ ] Tool retry and error recovery
 
-## Intended usage
+## Planned usage
 
-```
+This is the intended interface, shown so you can judge the design. **It does not work yet**, and names may change before the first release.
+
+```bash
 python patterns/evaluator_optimizer.py
 ```
 
-_The interface above is the target design and may change._
-
-## Roadmap
-
-1. Core implementation of the first feature set
-2. Examples and tests
-3. CI and first tagged release
-4. Docs and integrations
-
 ## Contributing
 
-Contributions are welcome. Open an issue to discuss an idea or pick an unchecked item from the feature list.
+Feedback on the design is the most useful contribution right now. Open an issue to suggest a feature, question an approach or describe your use case. Code contributions are welcome once the first version lands.
 
 ## License
 
