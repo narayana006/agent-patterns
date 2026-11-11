@@ -110,7 +110,7 @@ Each file repeats the 12-line `ScriptedModel` instead of importing it, so a sing
 
 ## Using a real model
 
-Replace the `ScriptedModel` with any function of the same shape:
+Replace the `ScriptedModel` with any function of the same shape. For example, in a script saved inside `patterns/`:
 
 ```python
 import router
